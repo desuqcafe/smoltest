@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="dark-theme">
+    <header class="text-center py-5">
+        <h1 class="text-4xl font-bold">Welcome to My Personal Website</h1>
+    </header>
+    <main class="container mx-auto">
+        <section class="my-10">
+            <h2 class="text-2xl font-bold mb-5">Blog Posts</h2>
+            <div id="blog-posts" class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                <!-- Blog posts will be inserted here -->
+            </div>
+            <a href="blog.html" class="text-blue-500">View all posts</a>
+        </section>
+        <section class="my-10">
+            <h2 class="text-2xl font-bold mb-5">3D Model Showcase</h2>
+            <div id="model-display" class="model">
+                <!-- 3D model will be displayed here -->
+            </div>
+            <a href="model.html" class="text-blue-500">View model</a>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
